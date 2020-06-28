@@ -1,0 +1,20 @@
+server:
+  port: 6666
+spring:
+  redis:
+    host: 192.168.2.2
+    port: 6379
+    maxIdle: 150
+    maxActive: 1000
+    maxWait: 5000
+    testOnBorrow: true
+    password: haM7axfAIrQevA # edcsc1978_rA123
+    database: 0
+  datasource:
+    driver-class-name: org.h2.Driver
+    schema: classpath:db/schema-h2.sql
+    data: classpath:db/data-h2.sql
+    url: jdbc:h2:mem:test
+    username: root
+    password: test
+

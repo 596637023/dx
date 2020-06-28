@@ -1,0 +1,31 @@
+server:
+  port: 6666
+spring:
+  redis:
+    host: 192.168.2.2
+    port: 6379
+    maxIdle: 150
+    maxActive: 1000
+    maxWait: 5000
+    testOnBorrow: true
+    pass: haM7axfAIrQevA # edcsc1978_rA123
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/dx?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      initial-size: 1
+      min-idle: 3
+      max-wait: 60000
+      pool-prepared-statements: false
+      validation-query: SELECT 'x'
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 30000
+      max-pool-prepared-statement-per-connection-size: 20
+      max-active: 20
+      max-idle: 20
