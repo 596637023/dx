@@ -16,11 +16,7 @@
 
 
     <dependencies>
-        <dependency>
-            <groupId>com.dzl.dx</groupId>
-            <artifactId>dx-commons</artifactId>
-            <version>1.0.0.BUILD-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 
     <build>

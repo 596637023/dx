@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dx.iml" filepath="$PROJECT_DIR$/.idea/dx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dx-boot-admin/dx-boot-admin.iml" filepath="$PROJECT_DIR$/dx-boot-admin/dx-boot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/dx-commons/dx-commons.iml" filepath="$PROJECT_DIR$/dx-commons/dx-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dx-core/dx-core.iml" filepath="$PROJECT_DIR$/dx-core/dx-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dx-eurek-server/dx-eurek-server.iml" filepath="$PROJECT_DIR$/dx-eurek-server/dx-eurek-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dx-parent/dx-parent.iml" filepath="$PROJECT_DIR$/dx-parent/dx-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/dx-provider/dx-provider.iml" filepath="$PROJECT_DIR$/dx-provider/dx-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dx-provider/provider-system/provider-system.iml" filepath="$PROJECT_DIR$/dx-provider/provider-system/provider-system.iml" />

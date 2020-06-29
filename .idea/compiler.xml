@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dx-core" />
         <module name="dx-commons" />
+        <module name="dx-boot-admin" />
+        <module name="dx-eurek-server" />
         <module name="provider-system" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dx" target="1.8" />
+      <module name="dx-boot-admin" target="1.8" />
       <module name="dx-commons" target="1.8" />
+      <module name="dx-core" target="1.8" />
+      <module name="dx-eurek-server" target="1.8" />
       <module name="dx-parent" target="1.8" />
       <module name="dx-provider" target="1.8" />
       <module name="provider-system" target="1.8" />
@@ -20,7 +26,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dx-boot-admin" options="-parameters" />
       <module name="dx-commons" options="-parameters" />
+      <module name="dx-core" options="-parameters" />
+      <module name="dx-eurek-server" options="-parameters" />
       <module name="dx-provider" options="" />
       <module name="provider-system" options="-parameters" />
     </option>

@@ -13,4 +13,66 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <!-- 服务发现 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+<!--        &lt;!&ndash; 配置中心 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-config</artifactId>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 健康检查 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 日志跟踪 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-sleuth</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>net.logstash.logback</groupId>-->
+<!--            <artifactId>logstash-logback-encoder</artifactId>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; feign调用支持 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-openfeign</artifactId>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 支持 @ConfigurationProperties 注解 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-configuration-processor</artifactId>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 测试工具 &ndash;&gt;-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+
+
 </project>

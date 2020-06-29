@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/dx-provider/provider-system/pom.xml" />
         <option value="$PROJECT_DIR$/dx-commons/pom.xml" />
         <option value="$PROJECT_DIR$/dx-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-eurek-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-core/pom.xml" />
       </list>
     </option>
   </component>

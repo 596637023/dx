@@ -1,6 +1,13 @@
 server:
-  port: 6666
+  port: 7745
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
 spring:
+  application:
+    name: providersystem
   redis:
     host: 192.168.2.2
     port: 6379

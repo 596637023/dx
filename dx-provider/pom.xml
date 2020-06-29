@@ -3,9 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>dx</artifactId>
+        <artifactId>dx-parent</artifactId>
         <groupId>com.dzl.dx</groupId>
         <version>1.0.0.BUILD-SNAPSHOT</version>
+        <relativePath>../dx-parent/pom.xml</relativePath>
     </parent>
     <groupId>com.dzl.dx</groupId>
     <artifactId>dx-provider</artifactId>
@@ -21,14 +22,18 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.restdocs</groupId>
             <artifactId>spring-restdocs-mockmvc</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dzl.dx</groupId>
+            <artifactId>dx-core</artifactId>
+            <version>1.0.0.BUILD-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
