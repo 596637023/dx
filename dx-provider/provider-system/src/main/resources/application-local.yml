@@ -1,5 +1,5 @@
 server:
-  port: 7745
+  port: 8764
 eureka:
   client:
     service-url:
@@ -36,3 +36,12 @@ spring:
       max-pool-prepared-statement-per-connection-size: 20
       max-active: 20
       max-idle: 20
+management:
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+  endpoints:
+    web:
+      exposure:
+        #公开所有端点
+        include: "*"

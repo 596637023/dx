@@ -1,6 +1,6 @@
 package com.dx.system.controller;
 
-import com.dx.commons.model.ResponseResult;
+import com.dx.system.model.ResponseResult;
 import com.dx.system.model.User;
 import com.dx.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

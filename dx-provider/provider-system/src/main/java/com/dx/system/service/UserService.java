@@ -14,4 +14,9 @@ public class UserService {
     public void addUser(User user){
         System.out.println("添加用户信息:"+user);
     }
+
+    public User getUserById(String userId){
+        System.out.println("调用providersystem服务得:getUserById方法");
+        return new User();
+    }
 }

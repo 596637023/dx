@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/dx-eurek-server/dx-eurek-server.iml" filepath="$PROJECT_DIR$/dx-eurek-server/dx-eurek-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dx-parent/dx-parent.iml" filepath="$PROJECT_DIR$/dx-parent/dx-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/dx-provider/dx-provider.iml" filepath="$PROJECT_DIR$/dx-provider/dx-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dx-provider/provider-report/provider-report.iml" filepath="$PROJECT_DIR$/dx-provider/provider-report/provider-report.iml" />
       <module fileurl="file://$PROJECT_DIR$/dx-provider/provider-system/provider-system.iml" filepath="$PROJECT_DIR$/dx-provider/provider-system/provider-system.iml" />
     </modules>
   </component>

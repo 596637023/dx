@@ -12,9 +12,12 @@
     <artifactId>dx</artifactId>
     <version>1.0.0.BUILD-SNAPSHOT</version>
     <modules>
-        <module>dx-provider</module>
-        <module>dx-commons</module>
         <module>dx-parent</module>
+        <module>dx-boot-admin</module>
+        <module>dx-eurek-server</module>
+        <module>dx-core</module>
+        <module>dx-commons</module>
+        <module>dx-provider</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>
