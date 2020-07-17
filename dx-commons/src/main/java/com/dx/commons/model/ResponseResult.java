@@ -1,4 +1,4 @@
-package com.dx.system.model;
+package com.dx.commons.model;
 
 /**
  * @author dx
